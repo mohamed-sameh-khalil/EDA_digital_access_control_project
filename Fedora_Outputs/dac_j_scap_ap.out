@@ -1,0 +1,236 @@
+
+                            @@@         @@@@ @ @@@@@@@   
+                          @@   @@     @@    @@   @@   @@ 
+                         @@     @@   @@      @   @@    @@
+                        @@       @@ @@       @   @@    @@
+                        @@       @@ @@           @@   @@ 
+                        @@       @@ @@           @@@@@   
+                        @@       @@ @@           @@      
+                        @@       @@ @@           @@      
+                         @@     @@   @@      @   @@      
+                          @@   @@     @@    @@   @@      
+                            @@@         @@@@   @@@@@@    
+
+                           Placer for Standards Cells
+
+                   Alliance CAD System 5.0 20090901,   ocp 5.0
+                   Copyright (c) 2001-2019,     ASIM/LIP6/UPMC
+                   E-mail        : alliance-users@asim.lip6.fr
+
+o ALLIANCE environment:
+  o ALLIANCE_TOP   : /usr/lib64/alliance
+o MBK environment:
+  o MBK_IN_LO      : vst
+  o MBK_OUT_LO     : vst
+  o MBK_IN_PH      : ap
+  o MBK_OUT_PH     : ap
+  o MBK_VSS        : vss
+  o MBK_VDD        : vdd
+  o MBK_CATAL_NAME : CATAL
+  o MBK_CATA_LIB   : .
+                     /usr/lib64/alliance/cells/sxlib
+                     /usr/lib64/alliance/cells/dp_sxlib
+                     /usr/lib64/alliance/cells/rflib
+                     /usr/lib64/alliance/cells/rf2lib
+                     /usr/lib64/alliance/cells/ramlib
+                     /usr/lib64/alliance/cells/romlib
+                     /usr/lib64/alliance/cells/pxlib
+                     /usr/lib64/alliance/cells/padlib
+
+ o Number total of instances is ....  42
+ o Number of instances to place is ....  42
+ o Number of instances already placed is ....  0
+ o Number of nets is .... 52
+ o Sum of instances to place widths is ... 245
+ o Computing Initial Placement ...
+ o User Margin : 20%
+ o Number of Rows : 5
+ o Real Margin : 16.9492%
+ o Width of the abutment box : 59
+ o Height of the abutment box : 50
+ o conspace : 19.6667 1st connector : 9.83333
+ o adding connector  : code 1 x : 9 y : 50
+ o adding connector  : code 2 x : 29 y : 50
+ o adding connector  : code 3 x : 49 y : 50
+ o conspace : 14.75 1st connector : 7.375
+ o adding connector : door x : 7 y : 0
+ o adding connector : clk x : 22 y : 0
+ o adding connector : alarm x : 36 y : 0
+ o adding connector : scout x : 51 y : 0
+ o adding connector : scin x : 0 y : 8
+ o adding connector : daytime x : 0 y : 25
+ o adding connector : code 0 x : 0 y : 42
+ o adding connector: test x : 59 y : 12
+ o adding connector: reset x : 59 y : 37
+ o Initial Placement Computing ... done. 
+ o Beginning global placement ....
+ o Placer Warning : Net not_dac_cst 1 is not connected...
+ o Initial RowCost = 20
+ o Initial BinCost = 20
+ o Initial NetCost = 2335.5
+ o Initial Cost = 1
+ o Computing Initial Temperature ...
+ o bins size 245
+ o bins capa 245
+ o subrows capa 245
+Loop = 1, Temperature = 0.324758, Cost = 1.00878
+  RowCost = 36, BinCost = 67.4915, NetCost = 2356
+  Success Ratio = 99.0278%, Dist = 1, Delta = 0.5
+ o Total impossible movements = 444
+ o 7.65766 % suroccupied target
+ o 26.3514 % source equal target
+ o 65.991 % impossible exchange
+Loop = 2, Temperature = 0.162379, Cost = 1.04924
+  RowCost = 34, BinCost = 68.5085, NetCost = 2450.5
+  Success Ratio = 97.2222%, Dist = 1, Delta = 0.5
+ o Total impossible movements = 817
+ o 5.26316 % suroccupied target
+ o 29.8654 % source equal target
+ o 64.8715 % impossible exchange
+Loop = 3, Temperature = 0.0811896, Cost = 1.01456
+  RowCost = 38, BinCost = 82.1695, NetCost = 2369.5
+  Success Ratio = 96.25%, Dist = 1, Delta = 0.5
+ o Total impossible movements = 1198
+ o 4.17362 % suroccupied target
+ o 30.0501 % source equal target
+ o 65.7763 % impossible exchange
+Loop = 4, Temperature = 0.0405948, Cost = 1.04003
+  RowCost = 42, BinCost = 81.8305, NetCost = 2429
+  Success Ratio = 93.6111%, Dist = 1, Delta = 0.5
+ o Total impossible movements = 1570
+ o 3.56688 % suroccupied target
+ o 29.8089 % source equal target
+ o 66.6242 % impossible exchange
+Loop = 5, Temperature = 0.0202974, Cost = 1.04003
+  RowCost = 34, BinCost = 78.339, NetCost = 2429
+  Success Ratio = 84.1667%, Dist = 1, Delta = 0.5
+ o Total impossible movements = 1964
+ o 3.15682 % suroccupied target
+ o 28.5642 % source equal target
+ o 68.279 % impossible exchange
+Loop = 6, Temperature = 0.0144162, Cost = 0.969171
+  RowCost = 40, BinCost = 73.8305, NetCost = 2263.5
+  Success Ratio = 70%, Dist = 1, Delta = 0.710248
+ o Total impossible movements = 2282
+ o 3.33041 % suroccupied target
+ o 28.9658 % source equal target
+ o 67.7038 % impossible exchange
+Loop = 7, Temperature = 0.0115458, Cost = 0.891458
+  RowCost = 46, BinCost = 66.5085, NetCost = 2082
+  Success Ratio = 58.8889%, Dist = 1, Delta = 0.800891
+ o Total impossible movements = 2632
+ o 3.03951 % suroccupied target
+ o 28.7994 % source equal target
+ o 68.1611 % impossible exchange
+Loop = 8, Temperature = 0.0094359, Cost = 0.918219
+  RowCost = 44, BinCost = 94.339, NetCost = 2144.5
+  Success Ratio = 51.6667%, Dist = 1, Delta = 0.817258
+ o Total impossible movements = 3129
+ o 2.58869 % suroccupied target
+ o 27.9962 % source equal target
+ o 69.4151 % impossible exchange
+Loop = 9, Temperature = 0.00808289, Cost = 0.849069
+  RowCost = 34, BinCost = 54.1695, NetCost = 1983
+  Success Ratio = 46.9444%, Dist = 1, Delta = 0.856611
+ o Total impossible movements = 3473
+ o 2.53383 % suroccupied target
+ o 27.8722 % source equal target
+ o 69.594 % impossible exchange
+Loop = 10, Temperature = 0.00670244, Cost = 0.812246
+  RowCost = 36, BinCost = 69.8305, NetCost = 1897
+  Success Ratio = 32.7778%, Dist = 0.887778, Delta = 0.829213
+ o Total impossible movements = 3916
+ o 2.27273 % suroccupied target
+ o 27.8601 % source equal target
+ o 69.8672 % impossible exchange
+Loop = 11, Temperature = 0.00568082, Cost = 0.795119
+  RowCost = 38, BinCost = 68.339, NetCost = 1857
+  Success Ratio = 26.1111%, Dist = 0.728964, Delta = 0.847574
+ o Total impossible movements = 4267
+ o 2.08577 % suroccupied target
+ o 28.1697 % source equal target
+ o 69.7446 % impossible exchange
+Loop = 12, Temperature = 0.0046929, Cost = 0.81717
+  RowCost = 42, BinCost = 78.1695, NetCost = 1908.5
+  Success Ratio = 18.75%, Dist = 0.544901, Delta = 0.826096
+ o Total impossible movements = 4649
+ o 1.9359 % suroccupied target
+ o 27.9415 % source equal target
+ o 70.1226 % impossible exchange
+Loop = 13, Temperature = 0.00407173, Cost = 0.777136
+  RowCost = 36, BinCost = 67.8305, NetCost = 1815
+  Success Ratio = 20.9722%, Dist = 0.419422, Delta = 0.867636
+ o Total impossible movements = 5119
+ o 1.77769 % suroccupied target
+ o 28.4821 % source equal target
+ o 69.7402 % impossible exchange
+Loop = 14, Temperature = 0.00354707, Cost = 0.756155
+  RowCost = 36, BinCost = 67.8305, NetCost = 1766
+  Success Ratio = 25.4167%, Dist = 0.34148, Delta = 0.871146
+ o Total impossible movements = 5636
+ o 1.63236 % suroccupied target
+ o 29.5955 % source equal target
+ o 68.7722 % impossible exchange
+Loop = 15, Temperature = 0.00295551, Cost = 0.731107
+  RowCost = 42, BinCost = 75.8305, NetCost = 1707.5
+  Success Ratio = 19.4444%, Dist = 0.257627, Delta = 0.833226
+ o Total impossible movements = 6324
+ o 1.45478 % suroccupied target
+ o 31.3725 % source equal target
+ o 67.1727 % impossible exchange
+Loop = 16, Temperature = 0.00239883, Cost = 0.722329
+  RowCost = 36, BinCost = 61.8305, NetCost = 1687
+  Success Ratio = 28.1944%, Dist = 0.216908, Delta = 0.811647
+ o Total impossible movements = 7633
+ o 1.20529 % suroccupied target
+ o 36.1326 % source equal target
+ o 62.6621 % impossible exchange
+Loop = 17, Temperature = 0.002192, Cost = 0.682081
+  RowCost = 38, BinCost = 63.8305, NetCost = 1593
+  Success Ratio = 19.7222%, Dist = 0.164248, Delta = 0.913778
+ o Total impossible movements = 8780
+ o 1.04784 % suroccupied target
+ o 39.8178 % source equal target
+ o 59.1344 % impossible exchange
+Loop = 18, Temperature = 0.00184778, Cost = 0.670948
+  RowCost = 38, BinCost = 67.8305, NetCost = 1567
+  Success Ratio = 13.6111%, Dist = 0.114335, Delta = 0.842965
+ o Total impossible movements = 9826
+ o 0.936291 % suroccupied target
+ o 42.4181 % source equal target
+ o 56.6456 % impossible exchange
+Loop = 19, Temperature = 0.00151597, Cost = 0.662385
+  RowCost = 38, BinCost = 63.8305, NetCost = 1547
+  Success Ratio = 6.66667%, Dist = 0.1, Delta = 0.820427
+ o Total impossible movements = 10881
+ o 0.845511 % suroccupied target
+ o 44.3525 % source equal target
+ o 54.8019 % impossible exchange
+ o No More Mouvement Possible .....
+ o Global Placement finished .....
+ o Gain for RowCost      = -90%
+ o Gain for BinCost      = -219.153%
+ o Gain for NetCost      = 33.7615%
+ o NetCost Estimated = 1547
+ o Movements Stats ?! 
+ o 13722 Tried Moves
+ o 1.90206 % of accepted simple instance move
+ o 46.123 % of accepted instance exchange
+ o 0.874508 % of rejected simple instance move
+ o 51.1004 % of rejected instance exchange
+ o Impossible Movements Stats .... 
+ o If you find these values interesting, call a doctor...
+ o Total impossible movements = 10960
+ o 0.839416 % suroccupied target
+ o 44.6168 % source equal target
+ o 54.5438 % impossible exchange
+ o Final Optimization in process ...
+ o Net Cost before Final Optimization... 1689
+ o Final Optimization succeeded ...
+ o Final Net Cost ..... 1339.5
+ o Final Net Cost Optimization ..... 20.6927%
+ o Total Net Optimization .... 42.6461%
+
+Ocp : placement finished
+NO PREPLACEMENT GIVEN
+ o Destruction of DATABASE ....
